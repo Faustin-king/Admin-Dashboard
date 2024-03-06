@@ -35,6 +35,10 @@ aside {
     width: 20px;
     height: 20px;
 }
+header svg {
+    width: 20px;
+    height: 20px;  
+}
 
 #home-setting  ul li {
     list-style-type: none;
