@@ -61,7 +61,6 @@ header {
     grid-column: 2 / 5;
     
 }
-
 main {
     background-color: bisque;
     /* grid-area: main; */
