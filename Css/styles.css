@@ -46,6 +46,7 @@ header svg {
 
 #home-setting  ul li {
     list-style-type: none;
+    font-weight: bold;
 }
 
 #container {
@@ -115,13 +116,6 @@ ul {
     align-items: center;
     margin-right: 20px;
 }
-
-/* .search-bar form {
-    background-color: brown;
-}
-.search-bar input {
-   border-radius: 10px;
-} */
 
 .search-bar {
     display: flex;
