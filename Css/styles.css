@@ -52,10 +52,6 @@ header svg {
 #container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* grid-template-areas: 
-    "aside header header header"
-    "aside  main main main"
-    "aside main main main"; */
 
 }
 
