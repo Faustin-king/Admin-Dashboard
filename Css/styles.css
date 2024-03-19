@@ -6,9 +6,12 @@
 body{
    font-family: Arial, Helvetica, sans-serif; 
     line-height: 2;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
 }
 aside {
-    background-color: rgb(53, 53, 245);
+    background-color: rgb(5, 159, 255);
     color: aliceblue;
     padding: 30px;
     display: grid;
@@ -37,7 +40,8 @@ aside {
 }
 header svg {
     width: 20px;
-    height: 20px;  
+    height: 20px; 
+    
 }
 
 #home-setting  ul li {
@@ -56,10 +60,9 @@ header svg {
 
 
 header {
-    background-color: rgb(13, 226, 9);
+    background-color: #fff;
     /* grid-area: header; */
     grid-column: 2 / 5;
-    
 }
 main {
     background-color: bisque;
@@ -91,6 +94,107 @@ main .main-contanier .main-item {
 
 }
 
+ul {
+    list-style: none;
+}
+
+#home-search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+.ula ul {
+    display: flex;
+}
+
+.ula ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* .search-bar form {
+    background-color: brown;
+}
+.search-bar input {
+   border-radius: 10px;
+} */
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+}
+
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar svg {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    margin-right: 5px; /* Adjust spacing between SVG and input */
+}
+
+.search-bar input[type="text"] {
+    padding:5px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 550px;
+    background-color: #cfcccc;
+
+}
+
+ .py-2 {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    margin-right: 5px;
+}
+
+#another{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+#another .one-side {
+    display: flex;
+}
+
+.two-side {
+    display: flex;
+  
+}
+.two-side ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.two-side ul li {
+    margin-right: 10px; /* Adjust spacing between list items */
+    background-color: rgb(5, 159, 255);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+#another .para {
+    line-height: 1.5;
+}
+
+.para h1 {
+    font-weight: bold;
+}
 
 
 
